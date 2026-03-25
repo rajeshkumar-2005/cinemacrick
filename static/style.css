@@ -1,0 +1,180 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+/* 🏠 HOME BACKGROUND (Cinema + Cricket Split) */
+body.home {
+    background:
+        linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+        url('https://images.unsplash.com/photo-1517602302552-471fe67acf66') left/50% no-repeat,
+        url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e') right/50% no-repeat;
+    background-size: cover;
+}
+
+/* 🎬 MOVIE THEME */
+body.movie {
+    background:
+        
+        url('/static/lap.jpg') no-repeat center/cover;
+}
+
+/* 🏏 CRICKET THEME */
+body.cricket {
+    background:
+        url('/static/cricket.jpg') no-repeat center/cover;
+}
+
+/* OVERLAY */
+.overlay {
+    background: rgba(0,0,0,0.6);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TITLE */
+h1 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-align: center;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #ffcc00; }
+    to { text-shadow: 0 0 25px #ffcc00; }
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+/* BUTTONS */
+.card-btn {
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+
+/* MOVIE BUTTON */
+.movie-btn {
+    background: linear-gradient(45deg, red, orange);
+    box-shadow: 0 0 20px red;
+}
+
+/* CRICKET BUTTON */
+.cricket-btn {
+    background: linear-gradient(45deg, green, blue);
+    box-shadow: 0 0 20px green;
+}
+
+/* HOVER */
+.card-btn:hover {
+    transform: scale(1.1);
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* FORM */
+.form-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* INPUT */
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* CATEGORY COLORS */
+body.movie button {
+    background: red;
+    color: white;
+}
+
+body.cricket button {
+    background: green;
+    color: white;
+}
+
+/* DIALOGUE */
+.hidden {
+    display: none;
+    margin-top: 10px;
+    color: #00ffcc;
+    font-style: italic;
+}
+
+/* MESSAGE */
+.message {
+    margin-top: 15px;
+}
+
+/* BACK */
+.back {
+    margin-top: 15px;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+/* MOBILE */
+@media(max-width:600px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .form-box {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+.score {
+    color: #00ffcc;
+    margin-bottom: 10px;
+}
+button[name="next"] {
+    background: #00cc66;
+}

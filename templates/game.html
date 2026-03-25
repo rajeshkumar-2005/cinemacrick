@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<h2 class="score">🏆 Score: {{ score }}</h2>
+
+<body class="{{ category }}">
+
+<div class="overlay">
+
+    <h1>🎯 {{ category|capitalize }} Guess</h1>
+    <h2 class="score">🏆 Score: {{ score }}</h2>
+
+    <div class="card">
+        <p class="clue"><b>Clue:</b> {{ clue }}</p>
+
+        <button onclick="showDialogue(this)"> Reveal Hint</button>
+
+        <p id="dialogue" class="hidden">
+            "{{ dialogue }}"
+        </p>
+    </div>
+    <form method="POST" class="form-box">
+
+    {% if not show_next %}
+        <input type="text" name="answer" placeholder="Enter answer..." required>
+        <button type="submit">Submit</button>
+    {% else %}
+        <button type="submit" name="next">➡ Next Question</button>
+    {% endif %}
+
+</form>
+    
+<p class="message">{{ message }}</p>
+
+    <a href="/" class="back">⬅ Back to Home</a>
+
+</div>
+
+<script>
+function showDialogue(btn) {
+    document.getElementById("dialogue").style.display = "block";
+    btn.disabled = true;
+}
+</script>
+
+</body>
+</html>
