@@ -73,6 +73,32 @@
   {"clue": "Indian left-arm spinner with control", "dialogue": "Accuracy wins more than mystery", "answer": ["axar patel", "axar"]},
   {"clue": "Young Indian batter with fearless mindset", "dialogue": "Starts attacking before settling in", "answer": ["yashasvi jaiswal", "jaiswal"]},
   {"clue": "Sri Lankan mystery spinner", "dialogue": "Variations hide in plain sight", "answer": ["wanindu hasaranga", "hasaranga"]},
-  {"clue": "Zimbabwe all-rounder making impact", "dialogue": "Carries the team when needed most", "answer": ["sikandar raza", "raza"]}
+  {"clue": "Zimbabwe all-rounder making impact", "dialogue": "Carries the team when needed most", "answer": ["sikandar raza", "raza"]},
+  {"clue":"Indian bowler who took a hat-trick in the 2019 World Cup","dialogue":"Swinging left-arm pacer","answer":["mohammed shami","shami"]},
+  {"clue":"Youngest Indian to score a Test century on debut","dialogue":"Stylish left-hander","answer":["prithvi shaw","shaw"]},
+  {"clue":"Indian batter known as Mr. IPL","dialogue":"Consistent run scorer","answer":["suresh raina","raina"]},
+  {"clue":"Former Indian wicketkeeper known for lightning stumpings","dialogue":"Karnataka legend","answer":["syed kirmani","kirmani"]},
+  {"clue":"Indian all-rounder nicknamed Pandya","dialogue":"Big hitter and medium pacer","answer":["hardik pandya","hardik"]},
+  {"clue":"Former Indian opener known as VVS's partner","dialogue":"Elegant batsman","answer":["gautam gambhir","gambhir"]},
+  {"clue":"Indian spinner famous for mystery bowling","dialogue":"CSK veteran","answer":["ravichandran ashwin","ashwin"]},
+  {"clue":"Fast bowler who led India in the 2022 Test at Edgbaston","dialogue":"Aggressive pacer","answer":["jasprit bumrah","bumrah"]},
+  {"clue":"Indian cricketer known as Chinna Thala","dialogue":"CSK fan favorite","answer":["suresh raina","raina"]},
+  {"clue":"Former Indian captain who won 1983 World Cup","dialogue":"Devil's captain","answer":["kapil dev","kapil"]},
+  {"clue":"Indian wicketkeeper from Jharkhand","dialogue":"Helicopter shot master","answer":["ms dhoni","dhoni"]},
+  {"clue":"Indian batter who scored 264 in an ODI","dialogue":"Highest individual ODI score","answer":["rohit sharma","rohit"]},
+  {"clue":"Known as the Nawab of Najafgarh","dialogue":"Fearless attacking opener","answer":["virender sehwag","sehwag"]},
+  {"clue":"Former Indian spinner nicknamed Bhajji","dialogue":"Turbanator","answer":["harbhajan singh","harbhajan"]},
+  {"clue":"Indian batter famous for cover drives","dialogue":"Modern-day great","answer":["virat kohli","kohli"]},
+  {"clue":"Former Indian all-rounder known as Yuvi","dialogue":"Player of the Tournament 2011 World Cup","answer":["yuvraj singh","yuvraj"]},
+  {"clue":"Indian batter known as SKY","dialogue":"360-degree player","answer":["suryakumar yadav","sky","suryakumar"]},
+  {"clue":"Former Indian opener nicknamed Jonty Singh","dialogue":"Exceptional fielder","answer":["mohammad kaif","kaif"]},
+  {"clue":"Indian fast bowler from Hyderabad","dialogue":"Death overs specialist","answer":["mohammed siraj","siraj"]},
+  {"clue":"Former Indian captain nicknamed Dada","dialogue":"Off-side god","answer":["sourav ganguly","ganguly"]},
+  {"clue":"Indian spinner who took all 10 wickets in a Test innings","dialogue":"Historic achievement","answer":["anil kumble","kumble"]},
+  {"clue":"Indian opener who won Orange Cap in IPL 2020","dialogue":"Gabbar","answer":["shikhar dhawan","dhawan"]},
+  {"clue":"Indian batter known for calm finishing","dialogue":"Mr. Cool finisher","answer":["dinesh karthik","dk","dinesh karthik"]},
+  {"clue":"Former Indian player nicknamed Very Very Special","dialogue":"Elegant wristy batsman","answer":["vvs laxman","laxman"]},
+  {"clue":"Indian all-rounder known for sword celebration","dialogue":"Sir Jadeja","answer":["ravindra jadeja","jadeja"]}
 ]
+
 
